@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加客户信息",
+  "usingComponents": {
+    "ld-select": "/components/ld-select/ld-select"
+  }
+}

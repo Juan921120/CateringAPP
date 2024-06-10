@@ -1,0 +1,146 @@
+page {
+	width: 100%;
+	height: 100%;
+}
+.content {
+	width: 690rpx;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 5rpx 51rpx 0px rgba(172, 117, 138, 1);
+	border-radius: 10rpx;
+	padding: 33rpx 0 68rpx 0;
+	margin: 0rpx 30rpx 94rpx 30rpx;
+}
+.wu {
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: rgba(17, 17, 17, 1);
+	line-height: 36rpx;
+	padding-bottom: 10rpx;
+	border-bottom: 2rpx solid rgba(232, 232, 232, 1);
+	margin: 0 49rpx 0 60rpx;
+}
+.L1,
+.L2,
+.L3,
+.L4 {
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: rgba(102, 102, 102, 1);
+	line-height: 36rpx;
+	margin: 29rpx 49rpx 0 60rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.L1:last-child,
+.L2:last-child,
+.L3:last-child {
+	margin-bottom: 59rpx;
+}
+.end-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	color: #fff;
+	font-size: 26rpx;
+	width: 600rpx;
+	margin: 0 auto;
+	margin-bottom: 40rpx;
+	margin-top: 20rpx;
+	text-align: center;
+	line-height: 32rpx;
+	height: 50rpx;
+}
+.active {
+	font-size: 32rpx;
+	font-weight: bold;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAADCAYAAACEeL/nAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDAyIDc5LjE2NDM2MCwgMjAyMC8wMi8xMy0wMTowNzoyMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjEgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkZBOEZERjg4QjIxMDExRUE5ODhGOTE5OTA1ODkxMkVBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkZBOEZERjg5QjIxMDExRUE5ODhGOTE5OTA1ODkxMkVBIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkE4RkRGODZCMjEwMTFFQTk4OEY5MTk5MDU4OTEyRUEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RkE4RkRGODdCMjEwMTFFQTk4OEY5MTk5MDU4OTEyRUEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5N8caAAAAAMUlEQVR42mL8//9/KwMDQwkQszHQB/wC4h5GoMU/6WgpDHxhAtkOdQW9wG8gngQQYAD4GA2KT1ct3wAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	background-size: 40rpx 4rpx;
+	background-position: center bottom;
+}
+.attention {
+
+	text-align: center;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(200, 133, 159, 1);
+	line-height: 36rpx;
+}
+.tabs {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+            flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.scroll-h {
+    width: 750rpx;
+    height: 80rpx;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+
+    white-space: nowrap;
+
+    /* flex-wrap: nowrap; */
+    /* border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px; */
+}
+.line-h {
+    height: 1rpx;
+    background-color: #cccccc;
+}
+.uni-tab-item {
+
+    display: inline-block;
+
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    padding-left: 34rpx;
+    padding-right: 34rpx;
+}
+.uni-tab-item-title {
+    color: #555;
+    font-size: 30rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    -webkit-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+
+    white-space: nowrap;
+}
+.uni-tab-item-title-active {
+    color: #007AFF;
+}
+.attention{
+	padding-bottom: 40rpx;
+}
+.none{
+	
+	text-align: center;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #fff;
+	line-height: 36rpx;
+}
+

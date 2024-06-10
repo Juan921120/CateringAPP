@@ -1,0 +1,112 @@
+page {
+	width: 100%;
+	height: 100%;
+}
+.issue {
+	width: 100%;
+	height: 258rpx;
+	/* background: linear-gradient(0deg, rgba(253, 60, 133, 0), rgba(253, 60, 133, 1)); */
+}
+.issues{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-left: 32rpx;
+	margin-bottom: 5rpx;
+}
+.I1{
+	font-size:24rpx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(255,255,255,1);
+	line-height:36rpx;
+	padding-bottom: 22rpx;
+}
+.issue-item{
+	margin-bottom:60rpx;
+}
+.issueContent {
+	width: 690rpx;
+	
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 5rpx 51rpx 0px rgba(172, 117, 138, 1);
+	border-radius: 10rpx;
+	padding: 33rpx 0 68rpx ;
+	margin:0 auto;
+	
+	/* margin: 0rpx 30rpx 94rpx 30rpx; */
+}
+.none{
+	text-align: center;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #fff;
+	line-height: 36rpx;
+}
+.nooning {
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: rgba(17, 17, 17, 1);
+	line-height: 36rpx;
+	padding-bottom: 10rpx;
+	border-bottom: 2rpx solid rgba(232, 232, 232, 1);
+	margin: 0 49rpx 0 60rpx;
+}
+.E1,
+.E2,
+.E3,
+.E4 {
+	
+	display: -webkit-box;
+	
+	display: -webkit-flex;
+	
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: rgba(102, 102, 102, 1);
+	line-height: 36rpx;
+	margin: 29rpx 49rpx 0 60rpx;
+	display: flex;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.E1:last-child,
+.E2:last-child,
+.E3:last-child {
+	margin-bottom: 59rpx;
+}
+.attention {
+	position: absolute;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: rgba(200, 133, 159, 1);
+	line-height: 36rpx;
+	margin-left: 168rpx;
+	padding-bottom: 40rpx;
+}
+.attentions {
+	padding-top:60rpx;
+	margin:0 auto;
+}
+

@@ -1,0 +1,38 @@
+button{
+		z-index: 99;
+		display:block;
+		position:absolute;
+		width:650rpx;
+		height:80rpx;
+		left:50rpx;
+		bottom:200rpx;
+		color:#fff;
+		background:rgba(231,28,32,1);
+		border-radius:40px;
+	}
+	.logo{
+		width:207rpx;
+		height:298rpx;
+		position:absolute;
+		z-index: 99;
+		left:260rpx;
+		top:375rpx;
+		
+	}
+	page{
+		overflow:hidden;
+	}
+	.bg
+	{
+	width:750rpx;
+	height:1942rpx;
+	position:relative;
+	animation:mymove 5s infinite;
+	-webkit-animation:mymove 5s 1; /*Safari and Chrome*/
+	}
+	
+	@keyframes mymove
+	{
+	from {bottom:0px;}
+	to {bottom:600rpx;}
+	}

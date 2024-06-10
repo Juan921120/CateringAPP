@@ -1,0 +1,69 @@
+.store-item {
+	width:100%;
+	height:258px;
+	/* background:linear-gradient(0deg,rgba(231,28,90,0),rgba(253, 60, 133, 1)); */
+}
+.store-item-wrapper {
+	padding: 40rpx 0rpx;
+	width: 690rpx;
+	height: 610rpx;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 5rpx 51rpx 0px rgba(172, 117, 138, 1);
+	border-radius: 20rpx;
+	margin-bottom: 40rpx;
+	margin-left: 30rpx;
+}
+.store-item-wrappers {
+	padding: 40rpx 0rpx;
+	width: 690rpx;
+	height: 583rpx;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 5rpx 51rpx 0px rgba(172, 117, 138, 1);
+	border-radius: 20rpx;
+	margin-left: 30rpx;
+}
+.maternal {
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 1);
+	line-height: 36px;
+	margin-left: 29rpx;
+}
+.times,
+.way,
+.date,
+.start,
+.datePoint,
+.end,
+.endPoint,
+.roomNumber,
+.address {
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 1);
+	line-height: 36rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0 30rpx;
+	padding-top: 29rpx;
+}
+.times {
+	padding-top: 0 !important;
+}
+.T2{
+	font-size:24rpx;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(85,85,85,1);
+	line-height:36rpx;
+}
+

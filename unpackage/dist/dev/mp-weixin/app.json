@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/today/today",
+    "pages/record/record",
+    "pages/avoid/avoid",
+    "pages/store/store",
+    "pages/detail/detail",
+    "pages/sales/sales",
+    "pages/add/add",
+    "pages/registe/registe",
+    "pages/menulist/menulist"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#e71c5a",
+    "backgroundColor": "#e71c5a",
+    "font-size": "36rpx",
+    "font-weight": "bold",
+    "font-family": "PingFang SC"
+  },
+  "usingComponents": {}
+}

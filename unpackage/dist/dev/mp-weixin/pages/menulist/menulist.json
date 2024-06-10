@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "今日出餐",
+  "navigationBarBackgroundColor": "#e71c5a",
+  "usingComponents": {
+    "tabbar": "/components/tabbar"
+  }
+}
